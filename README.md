@@ -1,16 +1,61 @@
-# React + Vite
+# To-Do List Application (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and user-friendly **To-Do List Application** built using **React** and **Vite**.  
+It allows users to add, delete, edit, and mark tasks as complete.  
+This project was created as a part of **Module 3 React Assignment**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## React Compiler
+✔ Add new tasks  
+✔ Display task list  
+✔ Mark tasks as completed  
+✔ Delete tasks  
+✔ Edit existing tasks  
+✔ Clean and simple UI  
+✔ Fully responsive design  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/ ├── Components/ │     ├── Header.jsx │     ├── ToDoList.jsx │     └── ToDoItem.jsx ├── App.jsx ├── App.css ├── main.jsx └── index.css
+
+---
+
+## 🚀 How to Run This Project
+
+Follow these steps to run this project on your system:
+
+### 1️⃣ Install Dependencies
+npm install
+### 2️⃣ Start Development Server
+
+npm run dev
+
+### 3️⃣ Open in Browser  
+You will see a local URL like:
+
+http://localhost:5173/
+
+Open it to use the To-Do List App.
+
+---
+
+## 🧰 Technologies Used
+
+- **React JS**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS**
+- **Node.js**
+
+## 📝 About the Project
+
+This project demonstrates the use of:
+- React functional components  
+- useState hook for state management  
+- Props for component communication  
+- Component-based architecture  
+- Event handling in React  
