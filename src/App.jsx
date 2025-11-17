@@ -2,6 +2,7 @@
 // It will hold all the main state (todos) and the main functions.
 // This is required because keeping the central state in the top-level component
 // makes the entire app easier to manage and avoids confusion.
+// added explanation for app structure
 
 import { useState } from "react";
 import Header from "./Components/Header";
