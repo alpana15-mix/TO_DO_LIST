@@ -1,0 +1,47 @@
+/* Basic page styling to make the app look clean and readable */
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+
+/* Container for the whole app */
+.app-container {
+  width: 450px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Form layout inside header */
+.header form {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input styling */
+.header input {
+  flex: 1;
+  padding: 8px;
+}
+
+/* List styling */
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styling for each todo item row */
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+/* If a task is completed, we show strikethrough effect */
+.todo-item.completed span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
